@@ -3,6 +3,14 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+footer {
+    background-color: rgb(222,192,222);
+}
+
+svg {
+    fill: white;
+}
+
 .combination h2 {
     color: #ea1c2c;
     font-weight: 100;
@@ -18,7 +26,6 @@ body {
 
 .content {
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 #mainNavbar {
@@ -36,6 +43,11 @@ body {
 
 #mainNavbar .nav-link:hover{
     color: #ea1c2c;
+    cursor: pointer;
+}
+
+#mainNavbar .navbar-brand:hover {
+    cursor: pointer;
 }
 
 #headingGroup span {
